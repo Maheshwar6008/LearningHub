@@ -7,7 +7,7 @@ const nextConfig: NextConfig = {
   output: "export",
   
   // Set basePath for GitHub Pages (repo name)
-  basePath: isProd ? "/purview-portfolio" : "",
+  basePath: isProd ? "/LearningHub" : "",
   
   // Disable image optimization for static export
   images: {
