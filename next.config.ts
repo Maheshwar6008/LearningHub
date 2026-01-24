@@ -6,8 +6,8 @@ const nextConfig: NextConfig = {
   // Enable static export for GitHub Pages / Vercel deployment
   output: "export",
   
-  // No basePath needed for custom domain
-  basePath: "",
+  // Set basePath for GitHub Pages (repo name)
+  basePath: isProd ? "/LearningHub" : "",
   
   // Disable image optimization for static export
   images: {
